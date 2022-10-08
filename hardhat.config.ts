@@ -28,7 +28,7 @@ const config: HardhatUserConfig = {
     hardhat: {
       chainId: 31337,
     },
-    görli: {
+    goerli: {
       url: `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
       chainId: 5,
       accounts: [process.env.PRIVATE_KEY ?? "account not provided"],
@@ -45,6 +45,13 @@ const config: HardhatUserConfig = {
    */
   mocha: {
     timeout: 40000,
+  },
+
+  /**
+   * for etherscan (including both mainnet and testnets) operations, e.g contract verification
+   */
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
   },
 };
 
