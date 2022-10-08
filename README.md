@@ -13,3 +13,10 @@ npx hardhat run --network <your-network> scripts/deploy.ts
 npx hardhat verify --network <your-network> <contract-address> <constructor-arg-list>
 npx hardhat --max-memory 4096 compile
 ```
+
+
+## To init a hardhat project
+- install npm version 7+
+- (create an npm project) npm init
+- (inside the npm project) npm install --save-dev hardhat 
+- npx hardhat -> "Create a TypeScript project"
