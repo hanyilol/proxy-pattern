@@ -11,4 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run --network <your-network> scripts/deploy.ts
 npx hardhat verify --network <your-network> <contract-address> <constructor-arg-list>
+npx hardhat --max-memory 4096 compile
 ```
