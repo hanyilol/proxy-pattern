@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hanyilol/proxy-pattern/issues"
   },
-  "homepage": "https://github.com/hanyilol/proxy-pattern#readme"
+  "homepage": "https://github.com/hanyilol/proxy-pattern#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  }
 }
